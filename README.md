@@ -1,24 +1,31 @@
-# README
+# MySeven API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A RESTful API built with Ruby on Rails that provides JWT-based user authentication.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- User registration
+- User login with JWT authentication
+- Protected endpoints requiring authentication
 
-* System dependencies
+## Technologies Used
 
-* Configuration
+- Ruby on Rails
+- JWT (JSON Web Tokens)
+- bcrypt (password hashing)
+- PostgreSQL (as the database)
 
-* Database creation
+## Getting Started
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+- Ruby 2.7+
+- Rails 6.0+
+- PostgreSQL
 
-* Services (job queues, cache servers, search engines, etc.)
+### Installation
 
-* Deployment instructions
+1. Clone the repository:
 
-* ...
+   ```shell
+   git clone https://github.com/your-username/myseven-api.git
